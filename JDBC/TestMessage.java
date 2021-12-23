@@ -1,12 +1,9 @@
-package com.sonata.ExceptionTest;
-
+package com.sonata.Exception;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.Ignore;
-
 public class TestMessage {
-  
-	 String message ="Sonata";
+	String message ="Sonata";
 	 
 	  MessageException mE = new MessageException(message);
 	  
@@ -24,5 +21,5 @@ public class TestMessage {
 		  //message = "Hi" + message;
 		  assertEquals(message,mE.addMessage());
 	  }  
-  	
+
 }

@@ -1,13 +1,10 @@
 package com.sonata.CollectionExample;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-
-
 public class MoreAnnotationExample {
 	//execute only once, in the starting 
 	   @BeforeClass
@@ -46,4 +43,5 @@ public class MoreAnnotationExample {
 	   public void testCase2() {
 	      System.out.println("in test case 2");
 	   }
+
 }

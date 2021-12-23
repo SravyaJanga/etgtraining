@@ -1,7 +1,7 @@
 package com.sonata.TestSuitExample;
 
 public class MessageClass {
-	 private String message;
+	private String message;
 	  
 	  public MessageClass(String message){
 	      this.message = message; 
@@ -19,5 +19,5 @@ public class MessageClass {
 	      System.out.println(message);
 	      return message;
 	   }   
-}
 
+}
